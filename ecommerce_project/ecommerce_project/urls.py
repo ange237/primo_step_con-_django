@@ -26,6 +26,6 @@ urlpatterns = [
     path('products/', product_list, name='product_list'),
     path('cart/', cart_view, name='cart'), # aggiunto io stessi
     path('', holla),
-    path('analysi/',analisi, name='analisi'),
+    path('analisi/',analisi, name='analisi'),
     
 ]
