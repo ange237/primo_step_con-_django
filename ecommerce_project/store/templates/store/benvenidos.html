@@ -1,0 +1,22 @@
+<!-- welcome.html -->
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Benvenuto</title>
+</head>
+<body>
+    <h1>Benvenuto nella mia prima app con Django!</h1>
+
+    <div>
+        <p>Scegli una delle opzioni seguenti:</p>
+        <ul>
+            <li><a href="{% url 'product_list' %}">Lista Prodotti disponibili</a></li>
+            <li><a href="{% url 'cart' %}">Carrello</a></li>
+            <li><a href="{% url 'analisi' %}">Analisi</a></li>
+            </ul>
+        </ul>   
+    </div>
+</body>
+</html>
